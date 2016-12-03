@@ -44,6 +44,7 @@
 			</Item>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="Checkers Piece Drawer.vi" Type="VI" URL="../Checkers Piece Drawer.vi"/>
+			<Item Name="Checkers New Game.vi" Type="VI" URL="../Checkers New Game.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
