@@ -5,6 +5,7 @@ int32 testy;
 
 int32 piece = input[coordinates[0]][coordinates[1]];
 int secondMove=0;
+capture = 0;
 if(piece == 1){
 	
 	//For moving left
@@ -26,6 +27,7 @@ if(piece == 1){
 				{
 					moves[secondMove][0] = coordinates[0] - 2;
 					moves[secondMove][1] = coordinates[1] - 2;
+					capture++;
 					secondMove = 1;					
 				}
 			
@@ -50,7 +52,8 @@ if(piece == 1){
 				if(input[coordinates[0]-1][coordinates[1]+1] == 2 && input[coordinates[0]-2][coordinates[1]+2] == 0)
 				{
 					moves[secondMove][0] = coordinates[0] - 2;
-					moves[secondMove][1] = coordinates[1] + 2;	
+					moves[secondMove][1] = coordinates[1] + 2;
+					capture++;
 				}
 				
 			}
@@ -83,8 +86,8 @@ if(piece == 2) //Piece 2 is "red" a.k.a. player 1 a.k.a. at the bottom
 					moves[secondMove][0] = coordinates[0] - 2;
 					moves[secondMove][1] = coordinates[1] - 2;
 					secondMove = 1;					
+					capture++;
 				}
-			
 			}
 	
 		}
@@ -109,6 +112,7 @@ if(piece == 2) //Piece 2 is "red" a.k.a. player 1 a.k.a. at the bottom
 				{
 					moves[secondMove][0] = coordinates[0] - 2;
 					moves[secondMove][1] = coordinates[1] + 2;	
+					capture++;
 				}
 				
 			}
