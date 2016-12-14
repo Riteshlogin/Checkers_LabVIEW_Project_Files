@@ -34,6 +34,7 @@
 		<Item Name="Checkers King Drawer.vi" Type="VI" URL="../Checkers King Drawer.vi"/>
 		<Item Name="Checkers Load Game.vi" Type="VI" URL="../Checkers Load Game.vi"/>
 		<Item Name="Checkers New Game.vi" Type="VI" URL="../Checkers New Game.vi"/>
+		<Item Name="FixArray.vi" Type="VI" URL="../FixArray.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
