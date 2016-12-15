@@ -30,9 +30,7 @@ if(piece == 1){
 					capture++;
 					secondMove = 1;					
 				}
-			
 			}
-	
 		}
 		
 	}
